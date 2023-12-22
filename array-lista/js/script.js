@@ -11,3 +11,18 @@ const pesca = 'pesca';
 frutta.push(pesca);
 console.log(frutta);
 
+//? 3. Verificare se nell'array frutta è presente il cocomero
+
+// Creare variabile d'appoggio
+let drinkIngredient = "Oh no, devo uscire a comprare il cocomero!";
+
+// Controllare nell'array se è presente la variabile "cocomero"
+for (let i = 0; i < frutta.length; i++) {
+    // Se è presente...
+    if (frutta[i] === 'cocomero') {
+        drinkIngredient = "Trovato! Devo solo preparare il cocktail.";
+    };
+}
+
+// Stampare risultato
+console.log(drinkIngredient);
