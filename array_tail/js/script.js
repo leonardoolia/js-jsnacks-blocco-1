@@ -8,6 +8,11 @@ if (userNumbers < 6) {
 console.log(userNumbers);
 
 
+//? 2. Creare un array che contiene il numero di elementi scelto dall'utente
+const arrayElements = [];
+console.log(arrayElements);
+
+
 
 
 
