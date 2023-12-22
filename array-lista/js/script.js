@@ -3,3 +3,11 @@ const frutta = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'c
 console.log(frutta);
 
 
+//? 2. Creare variabile pesca e aggiungerla all'array frutta
+// Creare variabile pesca
+const pesca = 'pesca';
+
+// Aggiungerla all'array
+frutta.push(pesca);
+console.log(frutta);
+
