@@ -19,9 +19,10 @@ for (let i = 1; i <= userNumbers; i++) {
     arrayElements.push(randomNumbers);
 };
 
+//? 5. Stampare gli ultimi 5 elementi dell'array
 
-
-
+const last5 = arrayElements.slice(-5);
+console.log(last5);
 
 
 
