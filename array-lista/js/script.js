@@ -16,8 +16,10 @@ console.log(frutta);
 // Creare variabile d'appoggio
 let drinkIngredient = "Oh no, devo uscire a comprare il cocomero!";
 
+let hasWatermelon = false;
+
 // Controllare nell'array se è presente la variabile "cocomero"
-for (let i = 0; i < frutta.length; i++) {
+for (let i = 0; i < frutta.length && !hasWatermelon; i++) {
     // Se è presente...
     if (frutta[i] === 'cocomero') {
         drinkIngredient = "Trovato! Devo solo preparare il cocktail.";
